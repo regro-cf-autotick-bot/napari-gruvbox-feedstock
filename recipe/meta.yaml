@@ -1,5 +1,5 @@
 {% set name = "napari-gruvbox" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari-gruvbox-{{ version }}.tar.gz
-  sha256: 8623bd1a65210daf1c5f1f63f68fdb42a01262202517c24ab4d2ecff27dd93a9
+  sha256: 0636fc6eb5221c0881df1b2b5432b94bc737ceedc7115b4f27ee3ed3846bb8e3
 
 build:
   noarch: python
