@@ -21,6 +21,7 @@ requirements:
     - setuptools-scm
   run:
     - python >=3.8
+    - pygments>=2.9
 
 test:
   imports:
